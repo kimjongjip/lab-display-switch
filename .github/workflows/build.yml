@@ -1,0 +1,12 @@
+name: Build and logic tests
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build without changing the desktop
+        shell: powershell
+        run: .\scripts\build.ps1 -Test

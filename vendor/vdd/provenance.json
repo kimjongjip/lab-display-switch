@@ -1,0 +1,18 @@
+{
+    "Repository":  "https://github.com/VirtualDrivers/Virtual-Driver-Control",
+    "Commit":  "a1ae80aa1407402468dfb9893530f933cb6da1cf",
+    "Files":  [
+                  {
+                      "Path":  "mttvdd.cat",
+                      "Hash":  "2797CE1D6633DC9F94752AAA85A0FB3D4A2697CA6F3BF0777E22999E91ECC9AA"
+                  },
+                  {
+                      "Path":  "MttVDD.dll",
+                      "Hash":  "347DE404BB09E025DBA9C069237446462B8644989FF14AEB51565213241F682B"
+                  },
+                  {
+                      "Path":  "MttVDD.inf",
+                      "Hash":  "6C3DC69C34D968001F97414FB9DBC035C82566B0AD41F7E51557F91EF1D9252A"
+                  }
+              ]
+}

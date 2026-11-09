@@ -1,0 +1,17 @@
+dist/
+artifacts/
+*.user
+*.tmp
+# Machine-specific repair script and state must not be shared.
+scripts/repair-current-physical-layout.ps1
+.vs/
+.env
+.env.*
+*.log
+*.bak
+*.pfx
+*.pem
+settings.json
+lab-profile.json
+transaction.json
+cursor-recovery-latest.json
